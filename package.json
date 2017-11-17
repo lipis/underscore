@@ -21,7 +21,7 @@
     "docco": "*",
     "eslint-config-prettier": "2.7.0",
     "eslint-plugin-prettier": "2.3.1",
-    "eslint": "1.10.x",
+    "eslint": "4.11.0",
     "gzip-size-cli": "^1.0.0",
     "husky": "0.14.3",
     "karma-qunit": "~0.1.4",
@@ -43,6 +43,18 @@
       "prettier --write",
       "git add"
     ]
+  },
+  "prettier": {
+    "bracketSpacing": false,
+    "jsxBracketSameLine": false,
+    "printWidth": 80,
+    "proseWrap": false,
+    "requirePragma": false,
+    "semi": true,
+    "singleQuote": true,
+    "tabWidth": 2,
+    "trailingComma": "all",
+    "useTabs": false
   },
   "scripts": {
     "test": "npm run test-node && npm run lint",
